@@ -1,0 +1,98 @@
+.container{
+    background-color: rgb(78, 99, 78);
+    padding: 10px 2px;
+    border-radius: 5px;
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+    width: 100%;
+    height: 8%;
+}
+.container ul li:hover{
+    background-color: rgba(192, 255, 213, 0.521);
+    border-radius: 5px;
+}
+.container ul li{
+    display: inline;
+    padding: 20px 80px;
+}
+.index-class{
+    height: 100%;
+    background-color: rgba(138, 173, 153, 0.514);
+    padding: 30px;
+    margin: 20px;
+}
+
+.form-div{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 60px 90px;
+    width: 72.9rem;
+}
+.index-class p{
+    text-align: center;
+    font-family: cursive;
+    padding: 4px 50px;
+    height: 50px;
+    background-color: rgba(174, 204, 187, 0.514);
+}
+input[type='text']{
+    background-image: url(../img/username-icon-3.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+input[type='email']{
+    background-image: url(../img/666162.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+input[type='submit']{
+    padding: 20px 50px;
+    margin: 8px 500px;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+}
+input[type='submit']:hover{
+    background-color: rgba(33, 53, 33, 0.425);
+}
+.footer{
+    overflow: hidden;
+    position: sticky;
+    padding: 12px 0px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+    background-color: rgb(85, 112, 103);
+}
+.footer p{
+    text-align:  center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+}
